@@ -1,0 +1,12 @@
+/*add margin to the document*/
+body{
+    margin: 5%;
+}
+/*Add space between section elements*/
+section{
+    margin-top: 20px;
+}
+/*add space between submit button and last section element*/
+button{
+    margin-top: 20px;
+}

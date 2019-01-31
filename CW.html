@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CW</title>
+    <link rel="stylesheet" href="CW.css">
+</head>
+<body>
+<!--page header-->
+<header>
+    <h1>Register</h1>
+</header>
+<form>
+<!--required first and last name input text boxes with placeholder-->
+    <section>
+        <label>
+            First Name:
+            <input type="text" name="fname" placeholder="John" required/>
+        </label>
+        <label>
+            Last Name:
+            <input type="text" name="lname" placeholder="Smith" required/>
+        </label>
+    </section>
+<!--gender radio button selectors-->
+    <section>
+        <label>Male
+        <input type="radio" name="gender" value="Male"/>
+        </label>
+        <label>Female
+        <input type="radio" name="gender" value="Female"/>
+        </label>
+        <label>Other
+        <input type="radio" name="gender" value="Other"/>
+        </label>
+    </section>
+<!--email and password input text boxes with placeholder-->
+    <section>
+        <label>
+            Email:
+            <input type="email" name="email" placeholder="your email"/>
+        </label>
+        <label>
+            Password:
+            <input type="text" name="password" placeholder="your password"/>
+        </label>
+    </section>
+<!--birthday date selector-->
+    <section>
+        <label>
+            Birthday:
+            <input type="date" name="bday">
+        </label>
+    </section>
+<!--required agree checkbox-->
+    <section>
+        <label>
+            I agree to the terms and conditions
+            <input type="checkbox" name="agree" required>
+        </label>
+    </section>
+<!--submit button-->
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>
