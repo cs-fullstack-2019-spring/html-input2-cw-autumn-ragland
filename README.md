@@ -1,3 +1,6 @@
+### 1.5 POINT
+### Everything looked great but as noted in instructions, the input field for 'password' should have been type=password which hides the characters as they are entered. 
+
 # HTML Input 2 CW
 
 Duplicate the form depicted in the included image. Note the following:
